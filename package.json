@@ -1,0 +1,11 @@
+{
+  "name": "app.js",
+  "version": "1.0.0",
+  "dependencies": {
+    "@line/bot-sdk": "^9.7.1",
+    "express": "^4.21.2"
+  },
+  "scripts": {
+    "start": "app.js"
+  }
+}

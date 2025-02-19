@@ -3,10 +3,9 @@ const line = require('@line/bot-sdk'); // ใช้ SDK จาก LINE
 const app = express();
 const port = process.env.PORT || 3000;
 
-// ใส่ Channel Secret และ Channel Access Token ที่ได้จาก LINE Developers Console
 const config = {
-  channelAccessToken: 'YOUR_CHANNEL_ACCESS_TOKEN',
-  channelSecret: 'YOUR_CHANNEL_SECRET'
+  channelAccessToken: 'hfgkDnqMq34cYKn10WvUuVCLDT1w2S+PwKHf5F9x98eqIII3Iix12hOOOuu583hHfp3KyJfz/HHiAQjDOpJsdyz5svWAgulcsPCCGsZwA4iXnVein1xpk9vd7iGy8yURJwBA8r3d+RRONR3mHrhdpgdB04t89/1O/w1cDnyilFU=',
+  channelSecret: 'f2845436bf74e036f4cd91f951e82a32'
 };
 
 // สร้าง client จาก SDK
